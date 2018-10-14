@@ -1,0 +1,2941 @@
+# load Image of Linux...
+# 
+Uncompressing Linux............................................................................................................................................# ....... done, booting the kernel.
+# 
+# Linux version 2.6.32.2-FriendlyARM (root@localhost.localdomain) (gcc version 4.4.3 (ctng-1.6.1) ) #1 Tue Sep 21 18:09:15 HKT 2010
+# 
+# CPU: ARM920T [41129200] revision 0 (ARMv4T), cr=c0007177
+# 
+# CPU: VIVT data cache, VIVT instruction cache
+# 
+# Machine: FriendlyARM Mini2440 development board
+# 
+# ATAG_INITRD is deprecated; please update your bootloader.
+# 
+# Memory policy: ECC disabled, Data cache writeback
+# 
+# CPU S3C2440A (id 0x32440001)
+# 
+# S3C24XX Clocks, (c) 2004 Simtec Electronics
+# 
+# S3C244X: core 405.000 MHz, memory 101.250 MHz, peripheral 50.625 MHz
+# 
+# CLOCK: Slow mode (1.500 MHz), fast, MPLL on, UPLL on
+# 
+# Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+# 
+# Kernel command line: noinitrd root=/dev/mtdblock3 init=/linuxrc console=ttySAC0
+# 
+# PID hash table entries: 256 (order: -2, 1024 bytes)
+# 
+# Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+# 
+# Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+# 
+# Memory: 64MB = 64MB total
+# 
+# Memory: 60084KB available (4176K code, 451K data, 156K init, 0K highmem)
+# 
+# SLUB: Genslabs=11, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+# 
+# Hierarchical RCU implementation.
+# 
+# NR_IRQS:85
+# 
+# irq: clearing subpending status 00000002
+# 
+# Console: colour dummy device 80x30
+# 
+# console [ttySAC0] enabled
+# 
+# Calibrating delay loop... 201.93 BogoMIPS (lpj=504832)
+# 
+# Mount-cache hash table entries: 512
+# 
+# CPU: Testing write buffer coherency: ok
+# 
+# NET: Registered protocol family 16
+# 
+# S3C2440: Initialising architecture
+# 
+# S3C2440: IRQ Support
+# 
+# S3C24XX DMA Driver, (c) 2003-2004,2006 Simtec Electronics
+# 
+# DMA channel 0 at c4808000, irq 33
+# 
+# DMA channel 1 at c4808040, irq 34
+# 
+# DMA channel 2 at c4808080, irq 35
+# 
+# DMA channel 3 at c48080c0, irq 36
+# 
+# S3C244X: Clock Support, DVS off
+# 
+# bio: create slab <bio-0> at 0
+# 
+# SCSI subsystem initialized
+# 
+# usbcore: registered new interface driver usbfs
+# 
+# usbcore: registered new interface driver hub
+# 
+# usbcore: registered new device driver usb
+# 
+# s3c-i2c s3c2440-i2c: slave address 0x10
+# 
+# s3c-i2c s3c2440-i2c: bus frequency set to 98 KHz
+# 
+# s3c-i2c s3c2440-i2c: i2c-0: S3C I2C adapter
+# 
+# NET: Registered protocol family 2
+# 
+# IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+# 
+# TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+# 
+# TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+# 
+# TCP: Hash tables configured (established 2048 bind 2048)
+# 
+# TCP reno registered
+# 
+# NET: Registered protocol family 1
+# 
+# RPC: Registered udp transport module.
+# 
+# RPC: Registered tcp transport module.
+# 
+# RPC: Registered tcp NFSv4.1 backchannel transport module.
+# 
+# NetWinder Floating Point Emulator V0.97 (double precision)
+# 
+# 3267461685: ram mmu l1 fault at 00000000--rom_addr=c0066d18
+# yaffs Sep 21 2010 18:08:36 Installing. 
+# 
+# msgmni has been set to 117
+# 
+# alg: No test for stdrng (krng)
+# 
+# io scheduler noop registered (default)
+# 
+# Console: switching to colour frame buffer device 30x20
+# 
+# fb0: s3c2410fb frame buffer device
+# 
+# backlight	initialized
+# 
+# leds	initialized
+# 
+# buttons	initialized
+# 
+# pwm	initialized
+# 
+# adc	initialized
+# 
+# s3c2440-uart.0: s3c2410_serial0 at MMIO 0x50000000 (irq = 70) is a S3C2440
+# 
+# s3c2440-uart.1: s3c2410_serial1 at MMIO 0x50004000 (irq = 73) is a S3C2440
+# 
+# s3c2440-uart.2: s3c2410_serial2 at MMIO 0x50008000 (irq = 76) is a S3C2440
+# 
+# loop: module loaded
+# 
+# S3C24XX NAND Driver, (c) 2004 Simtec Electronics
+# 
+# s3c24xx-nand s3c2440-nand: Tacls=3, 29ns Twrph0=7 69ns, Twrph1=3 29ns
+# 
+# s3c24xx-nand s3c2440-nand: NAND soft ECC
+# 
+# NAND device: Manufacturer ID: 0xec, Chip ID: 0xda (Samsung NAND 256MiB 3,3V 8-bit)
+# 
+# Scanning device for bad blocks
+# 
+# Creating 5 MTD partitions on "NAND 256MiB 3,3V 8-bit":
+# 
+# 0x000000000000-0x000000040000 : "supervivi"
+# 
+# 0x000000040000-0x000000060000 : "param"
+# 
+# 0x000000060000-0x000000560000 : "Kernel"
+# 
+# 0x000000560000-0x000040560000 : "root"
+# 
+# mtd: partition "root" extends beyond the end of device "NAND 256MiB 3,3V 8-bit" -- size truncated to 0xfaa0000
+# 
+# 0x000000000000-0x000040000000 : "nand"
+# 
+# mtd: partition "nand" extends beyond the end of device "NAND 256MiB 3,3V 8-bit" -- size truncated to 0x10000000
+# 
+# dm9000 Ethernet Driver, V1.31
+# 
+# eth0: dm9000e at c4814300,c4818304 IRQ 51 MAC: 08:90:90:90:90:90 (chip)
+# 
+# ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+# 
+# s3c2410-ohci s3c2410-ohci: S3C24XX OHCI
+# 
+# s3c2410-ohci s3c2410-ohci: new USB bus registered, assigned bus number 1
+# 
+# s3c2410-ohci s3c2410-ohci: irq 42, io mem 0x49000000
+# 
+# s3c2410-ohci s3c2410-ohci: init err (00000000 0000)
+# 
+# ohci_hcd: can't start s3c24xx
+# 
+# s3c2410-ohci s3c2410-ohci: startup error -75
+# 
+# s3c2410-ohci s3c2410-ohci: USB bus 1 deregistered
+# 
+# s3c2410-ohci: probe of s3c2410-ohci failed with error -75
+# 
+# Initializing USB Mass Storage driver...
+# 
+# usbcore: registered new interface driver usb-storage
+# 
+# USB Mass Storage support registered.
+# 
+# usbcore: registered new interface driver ums-alauda
+# 
+# usbcore: registered new interface driver ums-cypress
+# 
+# usbcore: registered new interface driver ums-datafab
+# 
+# usbcore: registered new interface driver ums-freecom
+# 
+# usbcore: registered new interface driver ums-isd200
+# 
+# usbcore: registered new interface driver ums-jumpshot
+# 
+# usbcore: registered new interface driver ums-karma
+# 
+# usbcore: registered new interface driver ums-onetouch
+# 
+# usbcore: registered new interface driver ums-sddr09
+# 
+# usbcore: registered new interface driver ums-sddr55
+# 
+# usbcore: registered new interface driver ums-usbat
+# 
+# usbcore: registered new interface driver usbserial
+# 
+# USB Serial support registered for generic
+# 
+# usbcore: registered new interface driver usbserial_generic
+# 
+# usbserial: USB Serial Driver core
+# 
+# USB Serial support registered for aircable
+# 
+# usbcore: registered new interface driver aircable
+# 
+# USB Serial support registered for ark3116
+# 
+# usbcore: registered new interface driver ark3116
+# 
+# USB Serial support registered for Belkin / Peracom / GoHubs USB Serial Adapter
+# 
+# usbcore: registered new interface driver belkin
+# 
+# belkin_sa: v1.2:USB Belkin Serial converter driver
+# 
+# USB Serial support registered for ch341-uart
+# 
+# usbcore: registered new interface driver ch341
+# 
+# USB Serial support registered for cp210x
+# 
+# usbcore: registered new interface driver cp210x
+# 
+# cp210x: v0.09:Silicon Labs CP210x RS232 serial adaptor driver
+# 
+# USB Serial support registered for Reiner SCT Cyberjack USB card reader
+# 
+# usbcore: registered new interface driver cyberjack
+# 
+# cyberjack: v1.01 Matthias Bruestle
+# 
+# cyberjack: REINER SCT cyberJack pinpad/e-com USB Chipcard Reader Driver
+# 
+# USB Serial support registered for DeLorme Earthmate USB
+# 
+# USB Serial support registered for HID->COM RS232 Adapter
+# 
+# USB Serial support registered for Nokia CA-42 V2 Adapter
+# 
+# usbcore: registered new interface driver cypress
+# 
+# cypress_m8: v1.09:Cypress USB to Serial Driver
+# 
+# USB Serial support registered for Digi 2 port USB adapter
+# 
+# USB Serial support registered for Digi 4 port USB adapter
+# 
+# usbcore: registered new interface driver digi_acceleport
+# 
+# digi_acceleport: v1.80.1.2:Digi AccelePort USB-2/USB-4 Serial Converter driver
+# 
+# USB Serial support registered for Edgeport 2 port adapter
+# 
+# USB Serial support registered for Edgeport 4 port adapter
+# 
+# USB Serial support registered for Edgeport 8 port adapter
+# 
+# USB Serial support registered for EPiC device
+# 
+# usbcore: registered new interface driver io_edgeport
+# 
+# io_edgeport: v2.7:Edgeport USB Serial Driver
+# 
+# USB Serial support registered for Edgeport TI 1 port adapter
+# 
+# USB Serial support registered for Edgeport TI 2 port adapter
+# 
+# usbcore: registered new interface driver io_ti
+# 
+# io_ti: v0.7mode043006:Edgeport USB Serial Driver
+# 
+# USB Serial support registered for empeg
+# 
+# usbcore: registered new interface driver empeg
+# 
+# empeg: v1.2:USB Empeg Mark I/II Driver
+# 
+# USB Serial support registered for FTDI USB Serial Device
+# 
+# usbcore: registered new interface driver ftdi_sio
+# 
+# ftdi_sio: v1.5.0:USB FTDI Serial Converters Driver
+# 
+# USB Serial support registered for funsoft
+# 
+# usbcore: registered new interface driver funsoft
+# 
+# USB Serial support registered for Garmin GPS usb/tty
+# 
+# usbcore: registered new interface driver garmin_gps
+# 
+# garmin_gps: v0.33:garmin gps driver
+# 
+# USB Serial support registered for hp4X
+# 
+# usbcore: registered new interface driver hp4X
+# 
+# hp4x: v1.00:HP4x (48/49) Generic Serial driver
+# 
+# USB Serial support registered for PocketPC PDA
+# 
+# usbcore: registered new interface driver ipaq
+# 
+# ipaq: v0.5:USB PocketPC PDA driver
+# 
+# USB Serial support registered for IPWireless converter
+# 
+# usbcore: registered new interface driver ipwtty
+# 
+# ipw: v0.3:IPWireless tty driver
+# 
+# USB Serial support registered for IR Dongle
+# 
+# usbcore: registered new interface driver ir-usb
+# 
+# ir_usb: v0.4:USB IR Dongle driver
+# 
+# USB Serial support registered for iuu_phoenix
+# 
+# usbcore: registered new interface driver iuu_phoenix
+# 
+# iuu_phoenix: v0.11:Infinity USB Unlimited Phoenix driver
+# 
+# USB Serial support registered for Keyspan - (without firmware)
+# 
+# USB Serial support registered for Keyspan 1 port adapter
+# 
+# USB Serial support registered for Keyspan 2 port adapter
+# 
+# USB Serial support registered for Keyspan 4 port adapter
+# 
+# usbcore: registered new interface driver keyspan
+# 
+# keyspan: v1.1.5:Keyspan USB to Serial Converter Driver
+# 
+# USB Serial support registered for Keyspan PDA
+# 
+# USB Serial support registered for Keyspan PDA - (prerenumeration)
+# 
+# USB Serial support registered for Xircom / Entregra PGS - (prerenumeration)
+# 
+# usbcore: registered new interface driver keyspan_pda
+# 
+# keyspan_pda: v1.1:USB Keyspan PDA Converter driver
+# 
+# USB Serial support registered for KL5KUSB105D / PalmConnect
+# 
+# usbcore: registered new interface driver kl5kusb105d
+# 
+# kl5kusb105: v0.3a:KLSI KL5KUSB105 chipset USB->Serial Converter driver
+# 
+# USB Serial support registered for KOBIL USB smart card terminal
+# 
+# usbcore: registered new interface driver kobil
+# 
+# kobil_sct: 21/05/2004:KOBIL USB Smart Card Terminal Driver (experimental)
+# 
+# USB Serial support registered for MCT U232
+# 
+# usbcore: registered new interface driver mct_u232
+# 
+# mct_u232: z2.1:Magic Control Technology USB-RS232 converter driver
+# 
+# USB Serial support registered for Moschip 2 port adapter
+# 
+# mos7720: 1.0.0.4F:Moschip USB Serial Driver
+# 
+# usbcore: registered new interface driver moschip7720
+# 
+# USB Serial support registered for Moschip 7840/7820 USB Serial Driver
+# 
+# mos7840: 1.3.2:Moschip 7840/7820 USB Serial Driver
+# 
+# usbcore: registered new interface driver mos7840
+# 
+# USB Serial support registered for moto-modem
+# 
+# usbcore: registered new interface driver moto-modem
+# 
+# USB Serial support registered for navman
+# 
+# usbcore: registered new interface driver navman
+# 
+# USB Serial support registered for ZyXEL - omni.net lcd plus usb
+# 
+# usbcore: registered new interface driver omninet
+# 
+# omninet: v1.1:USB ZyXEL omni.net LCD PLUS Driver
+# 
+# USB Serial support registered for opticon
+# 
+# usbcore: registered new interface driver opticon
+# 
+# USB Serial support registered for GSM modem (1-port)
+# 
+# usbcore: registered new interface driver option
+# 
+# option: v0.7.2:USB Driver for GSM modems
+# 
+# USB Serial support registered for oti6858
+# 
+# usbcore: registered new interface driver oti6858
+# 
+# USB Serial support registered for pl2303
+# 
+# usbcore: registered new interface driver pl2303
+# 
+# pl2303: Prolific PL2303 USB to serial adaptor driver
+# 
+# USB Serial support registered for Qualcomm USB modem
+# 
+# usbcore: registered new interface driver qcserial
+# 
+# safe_serial: v0.0b:USB Safe Encapsulated Serial
+# 
+# USB Serial support registered for safe_serial
+# 
+# usbcore: registered new interface driver safe_serial
+# 
+# USB Serial support registered for siemens_mpi
+# 
+# usbcore: registered new interface driver siemens_mpi
+# 
+# Driver for Siemens USB/MPI adapter
+# 
+# Version 0.1 09/26/2005 Thomas Hergenhahn@web.de http://libnodave.sf.net
+# 
+# USB Serial support registered for Sierra USB modem
+# 
+# usbcore: registered new interface driver sierra
+# 
+# sierra: v.1.3.8:USB Driver for Sierra Wireless USB modems
+# 
+# USB Serial support registered for SPCP8x5
+# 
+# usbcore: registered new interface driver spcp8x5
+# 
+# spcp8x5: v0.04:SPCP8x5 USB to serial adaptor driver
+# 
+# USB Serial support registered for symbol
+# 
+# usbcore: registered new interface driver symbol
+# 
+# USB Serial support registered for TI USB 3410 1 port adapter
+# 
+# USB Serial support registered for TI USB 5052 2 port adapter
+# 
+# usbcore: registered new interface driver ti_usb_3410_5052
+# 
+# ti_usb_3410_5052: v0.9:TI USB 3410/5052 Serial Driver
+# 
+# USB Serial support registered for Handspring Visor / Palm OS
+# 
+# USB Serial support registered for Sony Clie 3.5
+# 
+# USB Serial support registered for Sony Clie 5.0
+# 
+# usbcore: registered new interface driver visor
+# 
+# visor: USB HandSpring Visor / Palm OS driver
+# 
+# USB Serial support registered for Connect Tech - WhiteHEAT - (prerenumeration)
+# 
+# USB Serial support registered for Connect Tech - WhiteHEAT
+# 
+# usbcore: registered new interface driver whiteheat
+# 
+# whiteheat: v2.0:USB ConnectTech WhiteHEAT driver
+# 
+# mice: PS/2 mouse device common for all mice
+# 
+# s3c2410 TouchScreen successfully loaded
+# 
+# input: s3c2410 TouchScreen as /devices/virtual/input/input0
+# 
+# S3C24XX RTC, (c) 2004,2006 Simtec Electronics
+# 
+# s3c2410-rtc s3c2410-rtc: rtc disabled, re-enabling
+# 
+# s3c2410-rtc s3c2410-rtc: rtc core: registered s3c as rtc0
+# 
+# i2c /dev entries driver
+# 
+# Linux video capture interface: v2.00
+# 
+# gspca: main v2.7.0 registered
+# 
+# usbcore: registered new interface driver conex
+# 
+# conex: registered
+# 
+# usbcore: registered new interface driver etoms
+# 
+# etoms: registered
+# 
+# usbcore: registered new interface driver finepix
+# 
+# finepix: registered
+# 
+# usbcore: registered new interface driver jeilinj
+# 
+# jeilinj: registered
+# 
+# usbcore: registered new interface driver mars
+# 
+# mars: registered
+# 
+# usbcore: registered new interface driver mr97310a
+# 
+# mr97310a: registered
+# 
+# usbcore: registered new interface driver ov519
+# 
+# ov519: registered
+# 
+# usbcore: registered new interface driver ov534
+# 
+# ov534: registered
+# 
+# usbcore: registered new interface driver pac207
+# 
+# pac207: registered
+# 
+# usbcore: registered new interface driver pac7311
+# 
+# pac7311: registered
+# 
+# usbcore: registered new interface driver sn9c20x
+# 
+# sn9c20x: registered
+# 
+# usbcore: registered new interface driver sonixb
+# 
+# sonixb: registered
+# 
+# usbcore: registered new interface driver sonixj
+# 
+# sonixj: registered
+# 
+# usbcore: registered new interface driver spca500
+# 
+# spca500: registered
+# 
+# usbcore: registered new interface driver spca501
+# 
+# spca501: registered
+# 
+# usbcore: registered new interface driver spca505
+# 
+# spca505: registered
+# 
+# usbcore: registered new interface driver spca506
+# 
+# spca506: registered
+# 
+# usbcore: registered new interface driver spca508
+# 
+# spca508: registered
+# 
+# usbcore: registered new interface driver spca561
+# 
+# spca561: registered
+# 
+# usbcore: registered new interface driver sq905
+# 
+# sq905: registered
+# 
+# usbcore: registered new interface driver sq905c
+# 
+# sq905c: registered
+# 
+# usbcore: registered new interface driver sunplus
+# 
+# sunplus: registered
+# 
+# usbcore: registered new interface driver stk014
+# 
+# stk014: registered
+# 
+# usbcore: registered new interface driver t613
+# 
+# t613: registered
+# 
+# usbcore: registered new interface driver tv8532
+# 
+# tv8532: registered
+# 
+# usbcore: registered new interface driver vc032x
+# 
+# vc032x: registered
+# 
+# usbcore: registered new interface driver zc3xx
+# 
+# zc3xx: registered
+# 
+# usbcore: registered new interface driver ALi m5602
+# 
+# ALi m5602: registered
+# 
+# usbcore: registered new interface driver STV06xx
+# 
+# STV06xx: registered
+# 
+# gspca_gl860: driver startup - version 0.9d10
+# 
+# usbcore: registered new interface driver gspca_gl860
+# 
+# gspca_gl860: driver registered
+# 
+# usbcore: registered new interface driver uvcvideo
+# 
+# USB Video Class driver (v0.1.0)
+# 
+# initializing s3c2440 camera interface......
+# 
+# s3c2440 camif init done
+# 
+# Loading OV9650 driver.........
+# 
+# SCCB address 0x60, manufacture ID 0x0000, expect 0x7FA2
+# 
+# SCCB address 0x60, manufacture ID 0x0000, expect 0x7FA2
+# 
+# No OV9650 found!!!
+# 
+# S3C2410 Watchdog Timer, (c) 2004 Simtec Electronics
+# 
+# s3c2410-wdt s3c2410-wdt: watchdog inactive, reset disabled, irq enabled
+# 
+# s3c-sdi s3c2440-sdi: powered down.
+# 
+# s3c-sdi s3c2440-sdi: mmc0 - using pio, sw SDIO IRQ
+# 
+# usbcore: registered new interface driver usbhid
+# 
+# usbhid: v2.6:USB HID core driver
+# 
+# Advanced Linux Sound Architecture Driver Version 1.0.21.
+# 
+# No device for DAI UDA134X
+# 
+# No device for DAI s3c24xx-i2s
+# 
+# S3C24XX_UDA134X SoC Audio driver
+# 
+# UDA134X SoC Audio Codec
+# 
+# asoc: UDA134X <-> s3c24xx-i2s mapping ok
+# 
+# ALSA device list:
+# 
+#   #0: S3C24XX_UDA134X (UDA134X)
+# 
+# TCP cubic registered
+# 
+# NET: Registered protocol family 17
+# 
+# s3c2410-rtc s3c2410-rtc: hctosys: invalid date/time
+# 
+# yaffs: dev is 32505859 name is "mtdblock3"
+# 
+# yaffs: passed flags ""
+# 
+# yaffs: Attempting MTD mount on 31.3, "mtdblock3"
+# 
+# yaffs: auto selecting yaffs2
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1268 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1259 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1248 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1239 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1227 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1218 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1209 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1198 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1191 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1184 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1177 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1159 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1152 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1141 detected
+# 
+# Partially written block 1132 detected
+# 
+# Partially written block 1132 detected
+# 
+# Partially written block 1132 detected
+# 
+# Partially written block 1132 detected
+# 
+# Partially written block 1132 detected
+# 
+# Partially written block 1132 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1123 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1114 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1107 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1098 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1089 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1086 detected
+# 
+# Partially written block 1074 detected
+# 
+# Partially written block 1074 detected
+# 
+# Partially written block 1074 detected
+# 
+# Partially written block 1074 detected
+# 
+# Partially written block 1074 detected
+# 
+# Partially written block 1074 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1061 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1045 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1027 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 1014 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 963 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 901 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 882 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 828 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 809 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 800 detected
+# 
+# Partially written block 791 detected
+# 
+# Partially written block 791 detected
+# 
+# Partially written block 791 detected
+# 
+# Partially written block 791 detected
+# 
+# Partially written block 791 detected
+# 
+# Partially written block 791 detected
+# 
+# Partially written block 791 detected
+# 
+# Partially written block 791 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 769 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 760 detected
+# 
+# Partially written block 695 detected
+# 
+# Partially written block 695 detected
+# 
+# Partially written block 695 detected
+# 
+# Partially written block 695 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 684 detected
+# 
+# Partially written block 675 detected
+# 
+# Partially written block 675 detected
+# 
+# Partially written block 675 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# Partially written block 659 detected
+# 
+# yaffs_read_super: isCheckpointed 0
+# 
+# VFS: Mounted root (yaffs filesystem) on device 31:3.
+# 
+# Freeing init memory: 156K
+# 
+# Warning: unable to open an initial console.
+# 
+# Failed to execute /linuxrc.  Attempting defaults...
+# 
+# Kernel panic - not syncing: No init found.  Try passing init= option to kernel.
+# 
+# Backtrace: 
+# 
+# [<c00341cc>] (dump_backtrace+0x0/0x10c) from [<c03297d0>] (dump_stack+0x18/0x1c)
+# 
+#  r7:00000000 r6:00000000 r5:c001f180 r4:c0481b10
+# 
+# [<c03297b8>] (dump_stack+0x0/0x1c) from [<c0329820>] (panic+0x4c/0x114)
+# 
+# [<c03297d4>] (panic+0x0/0x114) from [<c002f598>] (init_post+0xa8/0x10c)
+# 
+#  r3:00000000 r2:c38a0d00 r1:c38a0e00 r0:c03dae2c
+# 
+# [<c002f4f0>] (init_post+0x0/0x10c) from [<c00084b4>] (kernel_init+0xe4/0x114)
+# 
+#  r5:c001f180 r4:c04812a0
+# 
+# [<c00083d0>] (kernel_init+0x0/0x114) from [<c004bbbc>] (do_exit+0x0/0x620)
+# 
+#  r5:00000000 r4:00000000
+# 

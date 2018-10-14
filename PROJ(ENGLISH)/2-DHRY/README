@@ -1,0 +1,6 @@
+This directory will elaborate how the arm9-compatible code is utilized in simulation and FPGA implementation of a DHRYSTONE-measure project. Its optimazation strategy is from an ARM's application note.
+
+DHRY_pre.zip     ----   It is a directory attatched by KEIL example project "HELLO".
+DHRY_pro.zip     ----   Modify UART interface and real timer for simulation and FPGA implementation.
+sim_dhry.zip     ----   the arm9-compatible code and its testbench file, you can compile them and simulate to output DHRYSTONE result in console.
+chapter8.zip     ----   A FPGA-implementation project based on Digilent's Nexys3 FPGA board, as a reference. 

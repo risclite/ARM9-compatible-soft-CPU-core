@@ -1,0 +1,5 @@
+This directory has a simulation package on how to launch uClinux with this arm9-compatible code. BIN code and debug info are from a software simulator SKYEYE. Just unzip this .zip file and compile .v files in it. uClinux launching message will be displayed in a Verilog simulator.
+
+
+uClinux.zip   ----   A package file contained miscellaneous files on Verilog simulation.
+

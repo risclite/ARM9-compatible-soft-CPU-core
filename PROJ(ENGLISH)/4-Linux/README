@@ -1,0 +1,7 @@
+Mini2440 is one popular ARM9 development board. With its help, I have launched Linux in a verilog simulator. All needed files are included in one package file. This simulation process lasts 7.7s and the clock is 100MHz(10 ns), So 0.77 billion times of different instructions are available.
+
+linux.log  ----   All log info displayed in the verilog simulator.
+linux.zip  ----   The package file contains simulation files.
+
+
+

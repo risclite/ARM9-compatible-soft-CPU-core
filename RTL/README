@@ -1,0 +1,6 @@
+arm9_compitable_code.v            ------------- Original soft CPU code with all statements disorderly.
+arm9_compitable_code_comment.v    ------------- Original soft CPU code With clear Chinese detailed comments. 
+
+variant
+    |----risclite_mx.v            ------------- Compared with the original version, this file has no external interupts(IRQ/FIQ) and banked registers. It does not support MULT/MULTL instructions. If you are pulsed with the original one, start from this file. If you want to have a simpler soft CPU code, this version is suitable except for avoiding multiply instructions.
+    |----risclite_mx_mult.v      -------------No external interrupts support and banked registers, but support MULT/MULTL instructions.	

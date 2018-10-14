@@ -1,0 +1,6 @@
+This directory will elaborate how the arm9-compatible code is utilized in simulation and FPGA implementation of a simple uart-outputting-HELLO embeded project.
+
+HELLO_pre.zip    ----   It is a directory attatched by KEIL example project "HELLO".
+HELLO_pro.zip    ----   Modify UART interface for simulation and FPGA implementation.
+sim_hello.zip    ----   the arm9-compatible code and its testbench file, you can compile them and simulate to output chars in console.
+chapter7.zip     ----   A FPGA-implementation project based on Digilent's Nexys3 FPGA board, as a reference. 
