@@ -763,7 +763,7 @@ else if ( cpu_en )
 					2'b11 : cpsr_c <= #`DEL  code_rs_flag[1]? cpsr_c : reg_ans[31];
 					endcase	
                 else if ( cmd_is_dp2 )
-                    cpsr_c <= #`DEL  	reg_ans[31];
+                    cpsr_c <= #`DEL  (cmd[11:8]==4'b0) ? cpsr_c : reg_ans[31];
 				else if ( cmd_is_dp0 ) 
 				    case ( cmd[6:5] )
 				    2'b00 : cpsr_c <= #`DEL  (cmd[11:7]==5'b0) ? cpsr_c : reg_ans[32];
